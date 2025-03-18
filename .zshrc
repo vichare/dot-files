@@ -1,4 +1,4 @@
-alias gl='git log --graph --oneline --all -n 20'
+alias gl='git log --graph --oneline --all -n 1000 --abbrev=4'
 
 function tmx() {
   if [ -n "$1" ]
